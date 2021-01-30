@@ -1,0 +1,59 @@
+body{
+    background-color: #181818;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #555;
+}   
+
+#wrapper, #main-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    border: 1px solid #555;
+
+}
+
+#main-form label{
+    padding-top: 10px;
+}
+
+#wrapper{
+    margin-top: 200px;
+    width: 25%;
+}
+
+#submit {
+    color: #555;
+    font-size:large;
+    margin: 10px auto;
+    background-color: #222;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.input-item{
+    color: #555;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #222;
+    font-size:large;
+}
+
+.center{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size:larger;
+}
+
+#agradecimento{
+    width: 30%;
+    margin-top: 200px;
+}
